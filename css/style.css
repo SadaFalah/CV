@@ -1,0 +1,47 @@
+/*  
+    COLOR PALLETE:
+
+    #CDF0EA  // mintgreen
+    #F9F9F9 // offwhite
+    #F7DBF0
+    #BEAEE2 // lialic
+*/
+/**************************** TAG SELECTOR ****************************/
+body 
+{
+    background-color: #BEAEE2;
+}
+hr
+{   
+    border-color:   #CDF0EA;
+    width: 5%;
+    border-width: 5px;
+    border-style: dotted none none;
+}
+h1,h3
+{
+    color: #F9F9F9;
+}
+h1:hover
+{
+    color: #000000;
+}
+img
+{
+    height: 150px;
+}
+/**************************** CLASS SELECTOR ****************************/
+.glow{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #F9F9F9, 0 0 10px #F9F9F9, 0 0 20px #CDF0EA, 0 0 30px #CDF0EA, 0 0 40px #CDF0EA, 0 0 50px #CDF0EA, 0 0 60px #CDF0EA;
+    }
+    to {
+      text-shadow: 0 0 10px #F9F9F9, 0 0 20px #F7DBF0, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+    }
+  }
